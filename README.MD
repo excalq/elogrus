@@ -1,5 +1,9 @@
 # ElasticSearch Hook for [Logrus](https://github.com/Sirupsen/logrus) <img src="http://i.imgur.com/hTeVwmJ.png" width="40" height="40" alt=":walrus:" class="emoji" title=":walrus:"/>
-<img src="https://travis-ci.org/sohlich/elogrus.svg?branch=master" />
+<!-- img src="https://travis-ci.org/sohlich/elogrus.svg?branch=master" / -->
+
+## FORK INFORMATION
+
+@excalq's fork: fixes ElasticSearch v7 Deprecation warnings due to use of `Type()`.
 
 ## Releases
 **Notice that the master branch always refers to the latest version of Elastic. If you want to use stable versions of elogus, you should use the packages released via [gopkg.in](https://gopkg.in).**
