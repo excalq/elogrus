@@ -157,7 +157,6 @@ func syncFireFunc(entry *logrus.Entry, hook *ElasticHook, indexName string) erro
 	_, err := hook.client.
 		Index().
 		Index(hook.index()).
-		Type("log").
 		BodyJson(msg).
 		Do(hook.ctx)
 
